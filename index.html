@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="">
+            <h3>HOME</h3>
+
+            <div class="score-board">
+                <h2 id="home-score">0</h2>
+            </div>
+            
+            <div class="score-btn">
+                <button class="btn-style" id="home-score-button-1" onclick="homeScoreOne()">+1</button>
+                <button class="btn-style" id="home-score-button-2" onclick="homeScoreTwo()">+2</button>
+                <button class="btn-style" id="home-score-button-3" onclick="homeScoreThree()">+3</button>
+                <button class="btn-style" id="home-score-button-4" onclick="homeScoreOneNeg()">-1</button>
+            </div>
+        </div>
+        
+        
+        <div class="">
+           
+            <h3>GUEST</h3>
+
+            <div class="score-board">
+                <h2 id="guest-score">0</h2>
+            </div>
+
+            <div class="score-btn">
+                <button class="btn-style" id="guest-score-button-1" onclick="guestScoreOne()">+1</button>
+                <button class="btn-style" id="guest-score-button-2" onclick="guestScoreTwo()">+2</button>
+                <button class="btn-style" id="guest-score-button-3" onclick="guestScoreThree()">+3</button>
+                <button class="btn-style" id="guest-score-button-4" onclick="guestScoreOneNeg()">-1</button>
+            </div>
+
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
