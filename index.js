@@ -23,7 +23,7 @@ function homeScoreThree() {
     homeScoreCount.textContent = homeScore
 }
 
-// neg score 
+// neg home score 
 function homeScoreOneNeg() {
     homeScore -= 1 
     homeScoreCount.textContent = homeScore
@@ -46,8 +46,16 @@ function guestScoreThree() {
     guestScoreCount.textContent = guestScore
 }
 
-// neg score 
+// neg guest score 
 function guestScoreOneNeg() {
     guestScore -= 1 
     guestScoreCount.textContent = guestScore
+}
+
+// reset button
+function resetButton() {
+    homeScoreCount.textContent = 0
+    guestScoreCount.textContent = 0
+    homeScore = 0
+    guestScore = 0 
 }
